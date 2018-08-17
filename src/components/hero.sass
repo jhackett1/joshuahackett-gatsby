@@ -1,0 +1,34 @@
+@import '../layouts/index'
+    
+.hero
+    background-color: $grey4
+
+.hero__inner
+    min-height: 300px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    padding: 20px
+
+.hero__strapline, .hero__email
+    font-weight: normal
+
+.hero__email-link
+    text-decoration: none
+    color: $grey1
+    position: relative
+    border-bottom: 7px solid transparentize($green1, 0.6)
+
+
+@media screen and (min-width: 700px)
+    .hero__inner
+        min-height: 400px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: flex-start
+        padding: 20px
+
+    .hero__strapline, .hero__email
+        font-size: 2em

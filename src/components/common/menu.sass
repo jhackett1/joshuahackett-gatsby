@@ -1,0 +1,31 @@
+@import '../../layouts/index'
+    
+.menu
+    list-style: none
+    margin: 0
+    padding: 0
+
+.menu__menu-link
+    text-decoration: none
+    color: $grey2
+
+.menu__menu-link--active
+    color: $grey1
+    font-weight: bold
+
+
+@media screen and (min-width: 300px)
+    .menu
+        display: flex
+        flex-direction: row
+        justify-content: flex-end
+
+    .menu__menu-item
+        margin-left: 20px
+        &:first-of-type
+            margin-left: 0px
+
+
+@media screen and (min-width: 700px)
+    .menu__menu-item
+        margin-left: 40px
