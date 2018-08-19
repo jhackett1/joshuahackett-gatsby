@@ -17,9 +17,23 @@
 
 .hero__email-link
     text-decoration: none
+    display: inline-block
     color: $grey1
     position: relative
-    border-bottom: 7px solid transparentize($green1, 0.6)
+    z-index: 999
+    &::after
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        background: transparentize($green1, 0.75)
+        height: 5px
+        z-index: -1
+        transition: 0.1s ease-in
+    &:hover::after
+        background: transparentize($green1, 0.25)
+
 
 
 @media screen and (min-width: 700px)
@@ -34,6 +48,10 @@
     .hero__strapline, .hero__email
         font-size: 2.2em
 
+    .hero__email-link
+        &::after
+            height: 7px
+
 
 @media screen and (min-width: 900px)
     .hero__inner
@@ -42,3 +60,14 @@
     .hero__strapline, .hero__email
         max-width: 66.66%
         font-size: 2.3em
+
+@media screen and (min-width: 1200px)
+    .hero__inner
+        min-height: 600px
+
+    .hero__strapline, .hero__email
+        font-size: 2.8em
+
+    .hero__email-link
+        &::after
+            height: 9px

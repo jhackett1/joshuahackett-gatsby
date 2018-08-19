@@ -15,7 +15,7 @@ module.exports = {
         href: '/blog'
       },
       {
-        label: 'About',
+        label: 'About me',
         href: '/about'
       },
       {
