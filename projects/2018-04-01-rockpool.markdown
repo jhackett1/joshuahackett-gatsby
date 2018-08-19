@@ -1,0 +1,18 @@
+---
+layout: work
+title:  "Rockpool modernisation"
+date:   2018-04-01 23:35:20 +0000
+categories: digital strategy
+outline: Rockpool, a London investment firm, was looking to upgrade their website to something clean, speedy and responsive.
+quickFacts:
+  - Custom Wordpress theme and plugins
+  - Optimised load time
+  - Drag and drop page-building functionality
+image: "/uploads/rockpool_1.jpg"
+---
+
+Working with a UX designer, I delivered a bespoke Wordpress theme and several plugins, integrated with external platforms like Salesforce.
+
+I made use of the new Wordpress editor - Gutenberg - to give Rockpool the ability to create rich, creatively-designed pages without needing to write any code.
+
+Using the React-based Gutenberg API, I produced a variety of reusable "blocks" deployable on any page.

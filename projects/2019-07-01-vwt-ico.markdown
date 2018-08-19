@@ -1,0 +1,23 @@
+---
+layout: work
+title:  "Rapid, reusable landing pages"
+date:   2018-07-01
+categories: UX digital marketing
+outline: I created a design system for rapidly creating static marketing websites from reusable components.
+quickFacts:
+  - Landing pages can be quickly built from pre-made templates
+  - Companion design system offers code samples and examples of use
+  - Easily customised to use brand-specific colours and fonts
+image: "/uploads/vwt_1.jpg"
+---
+I was asked to create a static HTML landing page to promote a start-up's funding drive.
+
+Working with a designer, I created a collection of robust, reusable components that could be remixed into any order, with any content included in them, so that this and future landing pages could be quickly prototyped.
+
+![Examples of layouts possible with this system](/uploads/vwt_2.jpg)
+
+I used the Gatsby static site generator, which allowed me to implement each reusable layout block as a React component, but still benefit from a static HTML output.
+
+The aggressive performance optimisations of the Gatsby generator were vital to keeping load times under control - especially for longer page layouts.
+
+I created a companion design system which catalogued all the blocks on offer, suggestions of how to use them and code samples.

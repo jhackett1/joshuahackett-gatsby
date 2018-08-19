@@ -1,0 +1,31 @@
+---
+layout: work
+title:  "Hyperlog - a 24/7 utility for internet radio"
+date:   2017-05-05 12:00:20 +0000
+categories: digital UX
+outline: I developed a bespoke web application to continuously log the audio output and data of an internet radio station, to enable station staff and volunteers to easily archive output.
+quickFacts:
+  - 24/7, maintenance free operation
+  - Responsive and simple admin UI
+  - Based on node.js
+image: "/uploads/hyperlog_1.jpg"
+---
+
+In most localities, radio stations must maintain a complete log of their on-air output. Advertisers and station staff may also wish to monitor broadcast output, and presenters are increasingly seeking easy ways to make their shows available to a wider audience as podcasts. Therefore, radio logging software was born.
+
+However, traditional logging software must run on specialist hardware and needs a direct audio input from a live studio. Industry-standard solutions are prohibitively expensive for community and student radio stations.
+
+To my knowledge, Hyperlog is the only cloud-based audio logger: it listens only to what is actually broadcast, so it can run on any server anywhere in the world.
+
+<figure>
+  <img src="/uploads/hyperlog_2.jpg"/>
+  <figcaption>The Hyperlog user interface.</figcaption>
+</figure>
+
+Hyperlog is a web application based on node.js. It runs 24/7 on the recording server and is accessible via any web browser. It makes regular hourly recordings of broadcast output, and can also log the metadata of each hour, by making a request to the API of the radio station's website.
+
+The recordings can then be perused using the browser UI. Metadata like show name, description and genre is attached to each recording, and each can be downloaded. It also has a simple read-only API to integrate with a station's other online services.
+
+The administrator can specify a maximum number of hours to archive (eg. one week, one month), at which point Hyperlog will begin deleting the oldest recordings. In most localities, regulators require a 30-day log to be retained.  Important recordings can be "pinned" to prevent automatic deletion.
+
+The next iteration of Hyperlog will integrate with third party services like Mixcloud, Audioboom and Soundcloud, enabling automatic uploading of radio shows so they can be promoted and shared as podcasts.

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import Menu from './common/Menu'
 
 import './header.sass'
-import logo from './logo.svg'
+// import logo from '../../static/logo.svg'
 
 const Header = ({menu, title }) => (
     <header className="header">
@@ -13,7 +13,7 @@ const Header = ({menu, title }) => (
             <Link to="/">
                 <img 
                     className="header__logo" 
-                    src={logo} 
+                    src="/logo.svg"
                     alt={title}
                     />
             </Link>

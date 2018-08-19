@@ -1,0 +1,24 @@
+---
+layout: work
+title:  "DDaT Codelabs"
+date:   2018-06-01
+categories: UX content strategy
+outline: I founded a technical education programme for civil servants in the Digital, Data and Technology profession.
+quickFacts:
+  - Online lessons, combined with Slack channels, face to face workshops and more
+  - Teaches civil servants the basics of front and back-end web development
+  - Aligned to the civil service's strategy to improve staff's digital skills
+image: "/uploads/codelabs_1.jpg"
+---
+
+The digital parts of the civil service thrive on T-shaped people - those who have deep knowledge in their specialist area, plus broad understanding of the related areas they might come across.
+
+This kind of wide-ranging skillset means teams are more robust, communicating more efficiently and delivering faster.
+
+![Alt text](/uploads/codelabs_2.jpg)
+
+However, a frequent problem on the path to T-shaped people is introducing technical concepts, particularly **front and back end web development**, to civil servants in a way that keeps confidence high and encourages people to keep learning on their own initiative.
+
+I founded a six-month programme to help solve that problem. Acting as technical lead and content designer, I drafted a curriculum and lessons, which my team validated and refined through [user research](/my-process). Lessons were delivered online, but we also considered ways to create a community of learners across the UK.
+
+The project is on track to progress to a public beta in September 2018.

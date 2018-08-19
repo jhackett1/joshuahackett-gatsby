@@ -1,0 +1,24 @@
+---
+layout: work
+title:  "Quintin Hogg redesign"
+date:   2016-09-01 23:35:20 +0000
+categories: print design
+outline: I came up with a fresh, versatile look and format for the Quintin Hogg, the official student newspaper of the University of Westminster.
+quick_facts:
+  - Modern tabloid feel
+  - Large images and attention-grabbing fonts
+  - Highly modular design for quick, efficient production of every issue
+image: "/uploads/qh_1.jpg"
+---
+The *Quintin Hogg* newspaper is the latest in a long tradition of student publications at the University of Westminster. It focuses on news, current affairs and sport, and is complemented by sister publication *Smoke Mag*, which focuses on culture and lifestyle.
+
+The redesign was conducted over summer and was intended to be a complete departure from the previous look. This was partly for simple modernisation, but also an opportunity to bring the *QH* in line with new joint student media brand guidelines.
+
+<figure>
+<img src="/uploads/qh_2.jpg" />
+<figcaption>The new-look QH features a no-nonsense news section with strong brand colour presence.</figcaption>
+</figure>
+
+A tabloid format was selected for convenience and cost, and a unique, modern tabloid look was developed, making use of bold headlines and crossheads, colourful pullquotes and strong presence of brand colours. A five-column grid was selected for all pages, to avoid the mishmash of designs that had afflicted earlier incarnations of the *QH*.
+
+ The new templates are interpreted by student volunteers, who adapt and remix them when producing each issue.

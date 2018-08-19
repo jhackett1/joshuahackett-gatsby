@@ -26,7 +26,34 @@ module.exports = {
     twitter: 'dinosaurenby'
   },
   plugins: [
+    // Sass support
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`
+    // Process markdown files
+    `gatsby-transformer-remark`,
+    // Manage document head
+    `gatsby-plugin-react-helmet`,
+    // Support Medium
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@dinosaurlord`,
+      },
+    },    
+    // Import project .md files
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./projects`,
+        name: "projects",
+      },
+    },
+    // Import post .md files
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./posts`,
+        name: "posts",
+      },
+    },
   ],
 }

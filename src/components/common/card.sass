@@ -1,0 +1,46 @@
+@import '../../layouts/variables'
+    
+.card
+    box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.15)
+    border-radius: 10px
+    overflow: hidden
+    margin-bottom: 25px  
+
+.card__image
+    object-fit: cover
+    height: 220px
+    width: 100%
+
+.card__inner
+    padding: 25px
+
+.card__subtitle
+    font-weight: normal
+    color: $grey2
+    font-size: 0.8em
+    margin: 0px 0px 10px 0px
+
+.card__title
+    color: $grey1
+    font-size: 1.3em
+    margin: 0px 0px 0px 0px
+
+.card__excerpt
+    color: $grey2
+
+
+@media (min-width: 700px)
+    .card
+        margin-bottom: 35px  
+
+    .card__image
+        height: 260px
+
+    .card__inner
+        padding: 30px
+
+    .card__subtitle
+        font-size: 0.85em
+
+    .card__title
+        font-size: 1.5em

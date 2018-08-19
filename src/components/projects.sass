@@ -1,0 +1,37 @@
+@import '../layouts/variables'
+    
+.projects__inner
+    padding: 40px 20px 80px 20px
+
+.projects__list
+    margin-bottom: 20px
+    padding: 0px
+    list-style: none
+
+.projects__title
+    color: $grey1
+    font-size: 1.7em
+
+.projects__list-item
+    text-decoration: none
+
+
+@media (min-width: 550px)
+    .projects__title
+        font-size: 2em
+        margin-bottom: 40px
+
+    .projects__list
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 25px
+
+
+@media (min-width: 700px)
+    .projects__title
+        font-size: 2.5em
+        margin-bottom: 50px
+
+    .projects__list
+        grid-column-gap: 40px
+        grid-row-gap: 15px

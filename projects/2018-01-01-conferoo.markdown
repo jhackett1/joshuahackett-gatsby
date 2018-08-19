@@ -1,0 +1,22 @@
+---
+layout: work
+title:  "Conferoo"
+date:   2018-06-01
+categories: Digital UX
+outline: I built an online conference engagement platform for a cross-department civil service event.
+quickFacts:
+  - Progressive web app front-end built with React
+  - Users can see info from organisers, build a personal agenda and participate in polls and surveys
+  - Used by organisers to assign venues and rearrange agenda based on delegate interest
+image: "/uploads/conferoo_1.jpg"
+---
+
+This year, I used React, Node and Express to build a conference engagement platform called Conferoo.
+
+Delegates could use a web app to build a personal agenda of the events on offer, respond to polls and see updates from the organisers. Organisers could extract insights to shape the conference in real time.
+
+![Alt text](/uploads/conferoo_2.jpg)
+
+To make things tougher, the venue had poor internet access, so the app needed to retry API requests in the background until success. I used [progressive web app](https://developers.google.com/web/progressive-web-apps/) principles to build a robust, offline-first experience for users.
+
+The application interacts with a Node.js backend via an API, with data saved and retrieved from a MongoDB database.

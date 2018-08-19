@@ -1,0 +1,41 @@
+@import '../layouts/variables'
+    
+.skills
+    background: $grey4
+
+.skills__inner
+    padding: 20px
+
+.skills__list
+    padding: 0px
+    list-style: none
+    margin-top: 50px
+
+.skills__list-item
+    margin-bottom: 50px
+
+.skills__icon
+    width: 50px
+
+.skills__title
+    color: $grey1
+    font-size: 1.3em
+    margin: 15px 0px 0px 0px
+
+.skills__description
+    color: $grey2
+    margin: 15px 0px 0px 0px
+
+
+@media (min-width: 550px)
+    .skills__inner
+        padding: 40px 20px
+
+    .skills__list
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 50px
+        grid-row-gap: 20px
+
+    .skills__title
+        font-size: 1.5em
