@@ -21,7 +21,7 @@ export default class Blog extends React.Component{
                         <p>I like Javascript, React, Wordpress, static site generators, content design, prototyping, agile delivery and user research.</p>
                         <p>At the moment, I'm helping improve government services at DWP, and freelancing as a Javascript and Wordpress developer. Before that, I spent time as a journalist, marketer, photographer and even biologist!</p>
                         <p>Feel free to get in touch <a href="http://twitter.com/dinosaurenby">over Twitter.</a></p>
-                        <p><a href="#">Download my CV →</a></p>
+                        <p><a href="/cv.pdf">Download my CV →</a></p>
                         <section className="image-row">
                             <img className="image-row__image" src="/me_1.jpg" alt="Me"/>
                             <img className="image-row__image" src="/me_2.jpg" alt="Me"/>

@@ -22,8 +22,7 @@ module.exports = {
         label: 'Hire me',
         href: '/smallwins'
       },
-    ],
-    twitter: 'dinosaurenby'
+    ]
   },
   plugins: [
     // Sass support
@@ -55,5 +54,27 @@ module.exports = {
         name: "posts",
       },
     },
+
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./static/logo.svg",
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
+    },
+
+
+
   ],
 }
