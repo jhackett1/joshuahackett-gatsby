@@ -30,10 +30,12 @@ export default class PostTemplate extends React.Component{
                             {post.title}
                         </h1>
                     </header>
-                    <ProjectMeta
-                        outline={post.post.frontmatter.outline}
-                        quickFacts={post.post.frontmatter.quickFacts}                        
-                        />
+                    {(post.post.frontmatter.outline || post.post.frontmatter.quickFacts)? 
+                        <ProjectMeta
+                            outline={post.post.frontmatter.outline}
+                            quickFacts={post.post.frontmatter.quickFacts}                        
+                            />                    
+                    : ""}
                     <article className="content" dangerouslySetInnerHTML={{ __html: post.post.html}}></article>
                 </div>
                 <RelatedPosts/>
