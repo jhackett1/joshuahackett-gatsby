@@ -12,17 +12,17 @@ const Process = () => (
             <Skill
                 icon="/skill1.svg"
                 title="Discover"
-                description="I specialise in designing for user needs - testing prototypes with real users and rapidly iterating them."
+                description="Every digital service exists to meet a user need. The first step in a new project is learning who our users are, and what they need."
             />
             <Skill
                 icon="/skill3.svg"
                 title="Prototype"
-                description="I've led and worked in a variety of agile teams, at all stages of the product development lifecycle."
+                description="It's risky to deliver a 'finished' product all at once. To avoid building the wrong thing, we'll focus on a minimum viable product and test it with users."
                 />
             <Skill
                 icon="/skill2.svg"
                 title="Iterate"
-                description="I write robust, accessible front-end code and make use of modern Javascript frameworks."
+                description="Measure how the product performs in the real world and use that feedback to improve it. User needs change over time, and the best products respond to that change."
                 />                         
         </ul>
     </div>

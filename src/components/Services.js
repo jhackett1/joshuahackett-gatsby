@@ -12,24 +12,25 @@ const Blog = ({posts}) => (
             <h2 className="blog__title">Services</h2>
             <ul className="blog__list">
                 <Card
-                    subtitle="Service"
-                    title="Wordpress themes and plugins"
-                    excerpt="Duplicate document named `HomepageQuery`. GraphQL fragments and roots must have unique names."
+                    icon="/service1.svg"
+                    title="Wordpress development"
+                    excerpt="Get the website of your dreams with your own unique Wordpress theme and custom plugins to permit any novel functionality you need."
+                    price="<strong>Most popular</strong> service"
                     />
                 <Card
-                    subtitle="Service"
-                    title="Front-end web design and development"
-                    excerpt="Duplicate document named `HomepageQuery`. GraphQL fragments and roots must have unique names."
+                    icon="/service4.svg"
+                    title="Custom web development"
+                    excerpt="Need something more bespoke? I work with modern tools like React to build completely custom web applications."
                     />
                 <Card
-                    subtitle="Service"
+                    icon="/service2.svg"
                     title="Native app development"
-                    excerpt="Duplicate document named `HomepageQuery`. GraphQL fragments and roots must have unique names."
+                    excerpt="Bring your idea to the iOS and Android app stores as a cross-platform React Native app."
                     />
                 <Card
-                    subtitle="Service"
+                    icon="/service3.svg"
                     title="Consulting, strategy and service design"
-                    excerpt="Duplicate document named `HomepageQuery`. GraphQL fragments and roots must have unique names."
+                    excerpt="Design is more than just pretty pictures. It's about understanding your users' needs and building a product that responds to them."
                     />
 
             </ul>

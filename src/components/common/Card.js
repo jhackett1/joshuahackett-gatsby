@@ -13,13 +13,18 @@ const Card = ({
     excerpt,
     linkHref,
     linkLabel,
-    external
+    external,
+    price,
+    icon
 }) => (
     <li className="card">
         {(imgSrc && imgAlt)? 
             <img className="card__image" src={imgSrc} alt={imgAlt}/> 
         : ""}
         <div className="card__inner">
+            {(icon)? 
+                <img className="card__icon" src={icon} alt="Service"/>
+            : ""}
             {(subtitle)? 
                 <h5 className="card__subtitle">{subtitle}</h5> 
             : ""}    
@@ -28,11 +33,14 @@ const Card = ({
             : ""}          
             {(excerpt)? 
                 <p className="card__excerpt">{excerpt}</p> 
-            : ""}     
+            : ""}  
             {(linkHref && linkLabel)? 
                 <Button external={external} outline="green" label={linkLabel} href={linkHref} /> 
             : ""}     
-        </div>                 
+        </div>  
+        {(price)?
+                <h4 className="card__price" dangerouslySetInnerHTML={{__html: price}}></h4>
+            : ""}                  
     </li>
 )
 
