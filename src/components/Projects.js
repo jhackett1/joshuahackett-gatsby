@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
+import slugify from 'slugify'
 
 import Card from './common/Card'
 import Button from './common/Button'
@@ -15,13 +16,13 @@ const Projects = ({projects}) => (
                 {projects.map((project, i) =>
                     <Link 
                         className="projects__list-item" 
-                        to="#" 
+                        to={`/project/${slugify(project.node.frontmatter.title, {lower: true})}`}
                         key={i}
                         >
                         <Card
                             imgAlt={project.node.frontmatter.title}
                             imgSrc={project.node.frontmatter.image}
-                            subtitle={project.node.frontmatter.categories}
+                            subtitle={project.node.frontmatter.type.join(", ")}
                             title={project.node.frontmatter.title}
                             />
                     </Link>
@@ -29,7 +30,7 @@ const Projects = ({projects}) => (
             </ul>
             <Button
                 outline
-                href="#"
+                href="/projects"
                 label="More projects →"
                 />
         </div>

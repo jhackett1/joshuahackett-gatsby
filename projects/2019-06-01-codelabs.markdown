@@ -2,7 +2,10 @@
 layout: work
 title:  "DDaT Codelabs"
 date:   2018-06-01
-categories: UX content strategy
+type: 
+  - Development
+  - Design
+  - Strategy
 outline: I founded a technical education programme for civil servants in the Digital, Data and Technology profession.
 quickFacts:
   - Online lessons, combined with Slack channels, face to face workshops and more

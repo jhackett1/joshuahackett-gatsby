@@ -2,7 +2,9 @@
 layout: work
 title:  "Freshers' TV 2015"
 date:   2015-10-01 23:35:20 +0000
-categories: video
+type: 
+  - Design
+  - Other
 outline: I served as co-producer of a major live student television production, awarded annually to one station by the National Student Television Association.
 quickFacts:
   - Managed a team of around thirty volunteer crew members and cast

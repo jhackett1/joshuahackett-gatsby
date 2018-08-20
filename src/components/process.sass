@@ -1,0 +1,32 @@
+@import '../layouts/variables'
+    
+.process
+    background: $grey4
+
+.process__inner
+    padding: 40px 20px 80px 20px
+
+.process__title
+    color: $grey1
+    font-size: 1.7em
+
+.process__list
+    margin: 40px 0px 0px 0px
+    padding: 0
+    list-style: none
+    @media (min-width: 700px)
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-column-gap: 35px
+
+
+@media (min-width: 550px)
+    .process__title
+        font-size: 2em
+        margin-bottom: 40px
+
+
+@media (min-width: 700px)
+    .process__title
+        font-size: 2.5em
+        margin-bottom: 50px

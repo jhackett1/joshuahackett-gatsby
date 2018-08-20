@@ -2,7 +2,9 @@
 layout: work
 title:  "Advertise with Westminster SU"
 date:   2017-05-26 12:00:20 +0000
-categories: digital UX
+type: 
+  - Development
+  - Design
 outline: I designed, developed and tested responsive landing pages for Westminster Students' Union to promote commercial services to clients.
 quickFacts:
   - Fully responsive

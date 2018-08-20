@@ -1,0 +1,36 @@
+@import '../layouts/variables'
+
+.page__inner
+    padding: 0px 25px 25px 25px
+
+.page__list
+    margin: 0
+    padding: 0
+
+.page__list--with-overlap
+    margin: -80px 0px 0px 0px
+    padding: 0
+
+.image-row
+    margin-top: 20px
+    @media (min-width: 550px)
+        margin-top: 40px
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-column-gap: 20px
+.image-row__image
+    margin-bottom: 20px
+
+
+@media (min-width: 550px)
+    .page__list--with-overlap
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 25px
+        margin-bottom: 20px
+
+
+@media (min-width: 700px)
+    .page__list--with-overlap
+        grid-column-gap: 40px
+        grid-row-gap: 15px

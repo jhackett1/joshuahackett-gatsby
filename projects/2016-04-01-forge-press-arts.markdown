@@ -2,7 +2,8 @@
 layout: work
 title:  "Forge Press Arts"
 date:   2016-04-01 23:35:20 +0000
-categories: print editorial
+type: 
+  - Design
 outline: As arts editor of the student newspaper Forge Press, I was responsible for three to four pages in each fortnightly edition.
 quickFacts:
   - Designed feature spreads & edited others' work

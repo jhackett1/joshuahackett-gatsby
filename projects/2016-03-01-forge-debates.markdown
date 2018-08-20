@@ -2,7 +2,8 @@
 layout: work
 title:  "Forge Debates"
 date:   2016-03-01 23:35:20 +0000
-categories: video
+type: 
+  - Other
 outline: I kicked off a new flagship debate show for Forge TV which attracted record-breaking viewing figures and audience engagement.
 quickFacts:
   - Livestreamed to Youtube

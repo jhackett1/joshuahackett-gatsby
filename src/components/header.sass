@@ -1,12 +1,39 @@
 @import '../layouts/variables'
     
 .header__inner
-    display: flex
-    flex-direction: row
-    justify-content: space-between
-    align-items: center
     padding: 20px
 
 .header__logo
     height: 23px
     width: auto
+    animation: slideDown 1s
+
+.header__menu-toggle
+    background: none
+    border: none
+    font-size: 0.9em
+    color: transparentize($grey2, 0.25)
+    text-transform: uppercase
+    display: inline-block
+    float: right
+    padding: 7px 10px
+    transform: translateY(-4px)
+    outline: none
+    @media (min-width: 450px)
+        display: none
+
+@media (min-width: 450px)
+    .header__inner
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        padding: 20px
+
+@media (max-width: 450px)
+    .header__menu-holder
+        display: none
+    .header__menu-holder--open
+        display: block
+        // background-color: red
+        padding: 10px

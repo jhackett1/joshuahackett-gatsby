@@ -2,7 +2,9 @@
 layout: work
 title:  "Westminster SU impact report"
 date:   2017-04-10 23:35:20 +0000
-categories: digital
+type: 
+  - Development
+  - Design
 outline: I built an animated, interactive annual report for Westminster SU, using modern web technologies like SVG and Javascript data visualisations.
 quickFacts:
   - Mobile-first design

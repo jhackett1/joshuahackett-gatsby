@@ -2,7 +2,9 @@
 layout: work
 title:  "Quintin Hogg redesign"
 date:   2016-09-01 23:35:20 +0000
-categories: print design
+type: 
+  - Design
+  - Strategy
 outline: I came up with a fresh, versatile look and format for the Quintin Hogg, the official student newspaper of the University of Westminster.
 quick_facts:
   - Modern tabloid feel

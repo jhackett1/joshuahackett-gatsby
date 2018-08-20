@@ -1,0 +1,64 @@
+@import '../layouts/variables'
+    
+.filterable-projects__button
+    border: 0
+    background: none
+    font-size: 1em
+    color: $grey2
+    padding: 19px 15px
+    outline: none
+    transition: 0.1s ease-in border-top
+    position: relative  
+    @media (max-width: 400px)
+        font-size: 0.9em 
+        padding: 12px
+    &::after
+        content: ""
+        position: absolute
+        top: 0px
+        left: 0px
+        right: 0px
+        border-top: 0px solid $green1
+        transition: 0.1s ease-in
+
+.filterable-projects__button--active
+    border: 0
+    background: none
+    font-size: 1em
+    color: $green1
+    padding: 19px 15px
+    font-weight: bold
+    pointer-events: none
+    outline: none
+    position: relative
+    display: inline-block
+    @media (max-width: 400px)
+        font-size: 0.9em 
+        padding: 12px             
+    &::after
+        content: ""
+        position: absolute
+        top: 0px
+        left: 0px
+        right: 0px
+        border-top: 6px solid $green1
+        transition: 0.1s ease-in
+        @media (max-width: 400px)
+            border-top: 4px solid $green1
+
+.filterable-projects__list
+    margin: 20px 0px
+    padding: 0
+
+@media (min-width: 550px)
+    .filterable-projects__list
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 25px
+        margin-top: 30px
+
+
+@media (min-width: 700px)
+    .filterable-projects__list
+        grid-column-gap: 40px
+        grid-row-gap: 15px

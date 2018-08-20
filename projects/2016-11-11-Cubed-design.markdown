@@ -2,7 +2,8 @@
 layout: work
 title:  "Cubed Gamers feature design"
 date:   2016-09-01 23:35:20 +0000
-categories: print design
+type: 
+  - Design
 outline: I worked as production editor of Cubed Gamers, a monthly national gaming magazine.
 quickFacts:
   - Colourful, attention-grabbing style

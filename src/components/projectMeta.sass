@@ -1,0 +1,37 @@
+@import '../layouts/variables'
+    
+.project-meta
+    padding: 25px 25px 10px 25px
+
+.project-meta__card
+    box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.15)
+    border-radius: 10px
+    overflow: hidden
+    margin-bottom: 25px  
+    background: white
+    padding: 25px
+
+.project-meta__title
+    color: $grey1
+    margin-top: 0px
+
+.project-meta__outline, .project-meta__list
+    color: $grey2   
+    line-height: 1.5em 
+
+
+.project-meta__list
+    margin: 0px 0px 0px 20px
+    list-style-type: '-'
+    padding: 0
+
+.project-meta__list-item
+    margin-bottom: 7px
+    &:last-of-type
+        margin-bottom: 0px
+
+@media (min-width: 550px)
+    .project-meta
+        display: grid
+        grid-template-columns: 2fr 3fr
+        grid-column-gap: 35px

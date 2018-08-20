@@ -2,7 +2,9 @@
 layout: work
 title:  "Forge TV website"
 date:   2016-01-12 23:35:20 +0000
-categories: digital
+type: 
+  - Development
+  - Design
 outline: I built a responsive website to showcase the video content of the University of Sheffield's student TV station, and to support the sale of video production services.
 quickFacts:
   - Fully responsive design

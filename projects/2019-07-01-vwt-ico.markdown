@@ -2,7 +2,9 @@
 layout: work
 title:  "Rapid, reusable landing pages"
 date:   2018-07-01
-categories: UX digital marketing
+type: 
+  - Development
+  - Strategy
 outline: I created a design system for rapidly creating static marketing websites from reusable components.
 quickFacts:
   - Landing pages can be quickly built from pre-made templates

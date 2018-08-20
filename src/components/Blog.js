@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import slugify from 'slugify'
+import timeago from 'timeago.js';
 
 import Card from './common/Card'
 import Button from './common/Button'
@@ -14,17 +16,18 @@ const Blog = ({posts}) => (
                 {posts.map((post, i) =>
                     <Card
                         key={i}
-                        subtitle={post.node.frontmatter.categories}
+                        subtitle={timeago().format(post.node.frontmatter.date)}
                         title={post.node.frontmatter.title}
                         excerpt={post.node.frontmatter.excerpt}
-                        linkHref="#"
+                        linkHref={(post.node.medium)? `http://medium.com/@dinosaurlord/${post.node.mediumSlug}` : `/post/${slugify(post.node.frontmatter.title, {lower: true})}`}
                         linkLabel="Keep reading →"
+                        external={post.node.medium}
                         />
                 )}
             </ul>
             <Button
                 outline
-                href="#"
+                href="/blog"
                 label="More posts →"
                 />
         </div>

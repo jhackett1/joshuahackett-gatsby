@@ -2,7 +2,10 @@
 layout: work
 title:  "Smoke Radio broadcast rebuild"
 date:   2017-02-09 23:35:20 +0000
-categories: digital UX
+type: 
+  - Development
+  - Strategy
+  - Other
 outline: I upgraded the broadcast infrastructure of one of the country's top student radio stations, for an improved listening experience and easier administration of the station's output.
 quickFacts:
   - Fully responsive design

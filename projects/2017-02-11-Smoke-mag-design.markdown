@@ -2,8 +2,10 @@
 layout: work
 title:  "Re-imagining Smoke Mag"
 date:   2016-09-01 23:35:20 +0000
-categories: print design
 outline: I worked with student volunteers to re-imagine a long-running print magazine for the digital age.
+type: 
+  - Design
+  - Other
 quickFacts:
   - Small format inspired by free weeklies and newspaper supplements
   - Large images and three-column layout

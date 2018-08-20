@@ -12,7 +12,8 @@ const Card = ({
     title,
     excerpt,
     linkHref,
-    linkLabel
+    linkLabel,
+    external
 }) => (
     <li className="card">
         {(imgSrc && imgAlt)? 
@@ -29,7 +30,7 @@ const Card = ({
                 <p className="card__excerpt">{excerpt}</p> 
             : ""}     
             {(linkHref && linkLabel)? 
-                <Button outline="green" label={linkLabel} href={linkHref} /> 
+                <Button external={external} outline="green" label={linkLabel} href={linkHref} /> 
             : ""}     
         </div>                 
     </li>

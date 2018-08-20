@@ -2,7 +2,8 @@
 layout: work
 title:  "Being an SU Officer"
 date:   2016-02-01 23:35:20 +0000
-categories: video
+type: 
+  - Other
 outline: I shed light on the day-to-day work of full-time Students' Union officers with a series of filmed interviews, as part of a marketing campaign to raise awareness of upcoming elections.
 quickFacts:
   - Eight part video series, approximately twenty minutes of total content

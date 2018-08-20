@@ -5,11 +5,14 @@
     border-radius: 10px
     overflow: hidden
     margin-bottom: 25px  
+    background: white
+    animation: growIn 0.5s
 
 .card__image
-    object-fit: cover
-    height: 220px
-    width: 100%
+    width: 100%   
+    @supports (object-fit: cover)
+        object-fit: cover
+        height: 220px
 
 .card__inner
     padding: 25px
@@ -27,14 +30,15 @@
 
 .card__excerpt
     color: $grey2
-
+    line-height: 1.5em
 
 @media (min-width: 700px)
     .card
         margin-bottom: 35px  
 
     .card__image
-        height: 260px
+        @supports (object-fit: cover)
+            height: 260px
 
     .card__inner
         padding: 30px

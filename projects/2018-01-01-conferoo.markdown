@@ -2,7 +2,10 @@
 layout: work
 title:  "Conferoo"
 date:   2018-06-01
-categories: Digital UX
+type: 
+  - Development
+  - Design
+  - Strategy
 outline: I built an online conference engagement platform for a cross-department civil service event.
 quickFacts:
   - Progressive web app front-end built with React

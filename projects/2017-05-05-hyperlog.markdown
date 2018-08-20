@@ -2,7 +2,9 @@
 layout: work
 title:  "Hyperlog - a 24/7 utility for internet radio"
 date:   2017-05-05 12:00:20 +0000
-categories: digital UX
+type: 
+  - Development
+  - Other
 outline: I developed a bespoke web application to continuously log the audio output and data of an internet radio station, to enable station staff and volunteers to easily archive output.
 quickFacts:
   - 24/7, maintenance free operation
