@@ -10,6 +10,7 @@ const CallToAction = ({email}) => (
             <h2 className="call-to-action__title">Contact me</h2>
             <p className="call-to-action__description">I'm always looking for new freelance opportunities and partnerships that fit my skillset. If you think you've got one, do get in touch!</p>
             <Button
+                external
                 href={"mailto:" + email}
                 label="Email me"
                 />

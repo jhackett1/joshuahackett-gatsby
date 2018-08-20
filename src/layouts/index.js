@@ -9,15 +9,15 @@ import './index.sass'
 
 const Layout = ({ children, data }) => (
   <div>
-    <Header
-      menu={data.site.siteMetadata.menu}
-      title={data.site.siteMetadata.title}
-      />
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: data.site.siteMetadata.description },
       ]}
+      />
+    <Header
+      menu={data.site.siteMetadata.menu}
+      title={data.site.siteMetadata.title}
       />
     {children()}
     <Footer

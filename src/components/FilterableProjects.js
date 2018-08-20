@@ -15,43 +15,41 @@ export default class FilterableProjects extends React.Component{
     }
 
     render(){
-
         const changeFilter = (filter) => {
             this.setState({
                 filter: filter
             })
         }
 
-        console.log(this.state)
         return(
             <section className="filterable-projects">
                 <nav 
                     className="filterable-projects__filters" 
-                    aria-role="tablist"
+                    role="tablist"
                     >
                     <button 
-                        aria-role="tab"
+                        role="tab"
                         className={(this.state.filter === "All")? "filterable-projects__button--active" : "filterable-projects__button"} 
                         onClick={()=>{changeFilter("All")}}
                         >
                         All
                     </button>
                     <button 
-                        aria-role="tab"
+                        role="tab"
                         className={(this.state.filter === "Design")? "filterable-projects__button--active" : "filterable-projects__button"} 
                         onClick={()=>{changeFilter("Design")}}
                         >
                         Design
                     </button>
                     <button 
-                        aria-role="tab"
+                        role="tab"
                         className={(this.state.filter === "Development")? "filterable-projects__button--active" : "filterable-projects__button"} 
                         onClick={()=>{changeFilter("Development")}}
                         >
                         Development
                     </button>   
                     <button 
-                        aria-role="tab"
+                        role="tab"
                         className={(this.state.filter === "Other")? "filterable-projects__button--active" : "filterable-projects__button"} 
                         onClick={()=>{changeFilter("Other")}}
                         >
@@ -69,7 +67,7 @@ export default class FilterableProjects extends React.Component{
                         .map((project, i) =>
                         <Link 
                             className="projects__list-item" 
-                            aria-role="tabpanel"
+                            role="tabpanel"
                             to={`/project/${slugify(project.node.frontmatter.title, {lower: true})}`}
                             key={i}
                             >

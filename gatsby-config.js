@@ -54,7 +54,7 @@ module.exports = {
         name: "posts",
       },
     },
-
+    // Favicon
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
@@ -73,8 +73,17 @@ module.exports = {
         }
       }
     },
-
-
-
+    // Work with netlify
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          "/*.ttf": [
+            "Access-Control-Allow-Origin: *",
+            "Content-Type: application/font-ttf",
+          ],
+        }
+      }
+    }
   ],
 }
