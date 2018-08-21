@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 import './menu.sass'
 
-const Menu = ({menu, className}) => (
+const Menu = ({menu}) => (
     <nav>
         <ul className="menu">
             {menu.map((menuItem, i) => 
