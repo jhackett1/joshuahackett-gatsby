@@ -7,7 +7,7 @@ import Button from './common/Button'
 import './blog.sass'
 
 const Blog = ({posts}) => (
-    <section className="blog">
+    <section className="blog" id="services">
         <div className="blog__inner container">
             <h2 className="blog__title">Services</h2>
             <ul className="blog__list">
