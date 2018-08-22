@@ -11,7 +11,7 @@ const SmallWinsHero = () => (
             <h2 className="small-wins-hero__subtitle">Freelance design and development by <strong>Joshua Hackett</strong></h2>
             <div className="small-wins-hero__button-holder">
                 <Button href="mailto:hello@joshuahackett.com?subject=A new project" label="Start a project"/>
-                <Button outline external href="#services" label="Or learn more ↓"/>            
+                <Button outline external href="#services" label="Or see services ↓"/>            
             </div>
         </div>
     </section>
