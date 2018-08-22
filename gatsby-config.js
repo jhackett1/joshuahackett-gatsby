@@ -84,6 +84,16 @@ module.exports = {
           ],
         }
       }
-    }
+    },
+    // Google Analytics
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-91311733-1",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
   ],
 }
