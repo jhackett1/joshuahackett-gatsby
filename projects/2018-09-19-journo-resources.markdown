@@ -2,8 +2,8 @@
 title: Journo Resources
 type:
   - Strategy
-  - design
-  - development
+  - Design
+  - Development
 quickFacts:
   - Cleaner visual design puts content front and centre
   - >-
