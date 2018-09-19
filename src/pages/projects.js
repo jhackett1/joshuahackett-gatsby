@@ -1,8 +1,6 @@
 import React from 'react'
-import slugify from 'slugify'
-import timeago from 'timeago.js'
 
-import Card from '../components/common/Card'
+import Layout from "../components/Layout"
 import PageHeader from '../components/PageHeader';
 import FilterableProjects from '../components/FilterableProjects';
 
@@ -13,7 +11,7 @@ export default class Projects extends React.Component{
 
 
         return(
-            <div>
+            <Layout>
                 <PageHeader
                   title="Projects"
                   lede="My recent digital projects, plus older print design and media work."
@@ -27,7 +25,7 @@ export default class Projects extends React.Component{
                     </div>                
                 </section>
 
-            </div>
+            </Layout>
         )
     }
 }

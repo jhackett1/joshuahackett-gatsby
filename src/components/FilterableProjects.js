@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import slugify from 'slugify'
 
 import Card from './common/Card'
@@ -60,8 +60,10 @@ export default class FilterableProjects extends React.Component{
                 <ul className="filterable-projects__list">
                     {this.props.projects
                         .filter((project)=>{
-                            if(this.state.filter == "All" || project.node.frontmatter.type.includes(this.state.filter)){
+                            if(this.state.filter === "All" || project.node.frontmatter.type.includes(this.state.filter)){
                                 return project
+                            } else {
+                                return false
                             }
                         })
                         .map((project, i) =>

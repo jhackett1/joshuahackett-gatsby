@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Button from '../components/common/Button'
+import Layout from "../components/Layout"
 import CallToAction from '../components/CallToAction'
 
 import './page.sass'
@@ -9,7 +9,7 @@ export default class Blog extends React.Component{
     render(){
 
         return(
-            <div>
+            <Layout>
                 <div className="container">
                     <header className="post-header">
                         <h1 className="post-header__headline">
@@ -30,7 +30,7 @@ export default class Blog extends React.Component{
                     </article>
                 </div>
                 <CallToAction email="hello@joshuahackett.com"/>
-            </div>
+            </Layout>
         )
     }
 }

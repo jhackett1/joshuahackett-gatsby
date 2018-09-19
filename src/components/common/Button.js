@@ -1,14 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import './button.sass'
 
 export default class Button extends React.Component{
-    constructor(props){
-        super(props)
-    }
-
     render(){
         if(this.props.external){
             return(

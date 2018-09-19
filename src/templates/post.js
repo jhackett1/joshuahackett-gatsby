@@ -1,6 +1,7 @@
 import React from 'react'
 import timeago from 'timeago.js';
 
+import Layout from "../components/Layout"
 import RelatedPosts from '../components/RelatedPosts'
 import CallToAction from '../components/CallToAction'
 import ProjectMeta from '../components/ProjectMeta'
@@ -8,19 +9,15 @@ import ProjectMeta from '../components/ProjectMeta'
 import './post.sass'
 
 export default class PostTemplate extends React.Component{
-    constructor(props){
-        super(props)
-    }
-
     render(){
-        let post = this.props.pathContext
+        let post = this.props.pageContext
 
         let style = {
           backgroundImage: `url(${post.post.frontmatter.image})`
         }
 
         return(
-            <div>
+            <Layout>
                 {(post.post.frontmatter.image)? 
                     <section className="full-width-image" style={style}>
                     </section>                    
@@ -44,7 +41,7 @@ export default class PostTemplate extends React.Component{
                     <RelatedPosts posts={post.relatedPosts}/>    
                 :""}
                 <CallToAction email="hello@joshuahackett.com"/>
-            </div>
+            </Layout>
         )
     }
 }

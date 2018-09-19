@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
+import Layout from "../components/Layout"
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
@@ -32,22 +32,22 @@ export default class Index extends React.Component {
       }
     })
     return(
-      <div>
-      <Hero
-        strapline={this.props.data.site.siteMetadata.strapline}
-        email={this.props.data.site.siteMetadata.email}
-        />
-      <Projects 
-        projects={this.props.data.projects.edges.slice(0, 4)}
-        />
-      <Skills />
-      <Blog
-        posts={sortedPosts.slice(0, 2)}
-        />
-      <CallToAction
-        email={this.props.data.site.siteMetadata.email}
-        />
-    </div>
+      <Layout>
+        <Hero
+          strapline={this.props.data.site.siteMetadata.strapline}
+          email={this.props.data.site.siteMetadata.email}
+          />
+        <Projects 
+          projects={this.props.data.projects.edges.slice(0, 4)}
+          />
+        <Skills />
+        <Blog
+          posts={sortedPosts.slice(0, 2)}
+          />
+        <CallToAction
+          email={this.props.data.site.siteMetadata.email}
+          />
+    </Layout>
     )
   }
 }

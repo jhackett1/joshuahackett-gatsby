@@ -10,8 +10,8 @@ const SmallWinsHero = () => (
             <h1 className="small-wins-hero__title">Small Wins</h1>
             <h2 className="small-wins-hero__subtitle">Freelance design and development by <strong>Joshua Hackett</strong></h2>
             <div className="small-wins-hero__button-holder">
-                <Button href="mailto:hello@joshuahackett.com?subject=A new project" label="Start a project"/>
-                <Button outline external href="#services" label="Or see services ↓"/>            
+                <Button external href="mailto:hello@joshuahackett.com?subject=A new project" label="Start a project"/> 
+                <a href="#services" className="button button--outline">Or see services ↓</a>       
             </div>
         </div>
     </section>

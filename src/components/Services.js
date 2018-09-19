@@ -1,8 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import Card from './common/Card'
-import Button from './common/Button'
 
 import './blog.sass'
 

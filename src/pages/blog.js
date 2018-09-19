@@ -2,6 +2,7 @@ import React from 'react'
 import slugify from 'slugify'
 import timeago from 'timeago.js'
 
+import Layout from "../components/Layout"
 import Card from '../components/common/Card'
 import PageHeader from '../components/PageHeader';
 
@@ -35,7 +36,7 @@ export default class Blog extends React.Component{
         })
 
         return(
-            <div>
+            <Layout>
                 <PageHeader
                   overlap
                   title="Blog"
@@ -59,7 +60,7 @@ export default class Blog extends React.Component{
                         </ul>
                     </div>                
                 </section>
-            </div>
+            </Layout>
         )
     }
 }

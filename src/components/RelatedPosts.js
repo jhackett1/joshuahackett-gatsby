@@ -1,7 +1,7 @@
 import React from 'react'
 import slugify from 'slugify'
 import timeago from 'timeago.js'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
 import './relatedPosts.sass'
 

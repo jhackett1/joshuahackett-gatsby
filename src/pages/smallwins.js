@@ -1,18 +1,17 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
+import Layout from "../components/Layout"
 import Projects from '../components/Projects'
 import SmallWinsHero from '../components/SmallWinsHero'
 import Services from '../components/Services'
 import Process from '../components/Process'
 import CallToAction from '../components/CallToAction'
 
-
 export default class Index extends React.Component {
   render(){
 
     return(
-    <div>
+    <Layout>
         <SmallWinsHero/>
         <Projects 
             projects={this.props.data.projects.edges.slice(0, 4)}
@@ -22,7 +21,7 @@ export default class Index extends React.Component {
         <CallToAction
             email={this.props.data.site.siteMetadata.email}
             />
-    </div>
+    </Layout>
     )
   }
 }
