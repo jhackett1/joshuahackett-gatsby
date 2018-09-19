@@ -2,7 +2,7 @@ import React from 'react'
 import slugify from 'slugify'
 import timeago from 'timeago.js'
 
-import Layout from "../components/Layout"
+import Layout from '../components/Index'
 import Card from '../components/common/Card'
 import PageHeader from '../components/PageHeader';
 

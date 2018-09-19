@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from "../components/Layout"
+import Layout from '../components/Index'
 import Projects from '../components/Projects'
 import SmallWinsHero from '../components/SmallWinsHero'
 import Services from '../components/Services'
