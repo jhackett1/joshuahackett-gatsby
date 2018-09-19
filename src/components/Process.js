@@ -3,6 +3,7 @@ import React from 'react'
 import Skill from './common/Skill'
 
 import './process.sass'
+import './skills.sass'
 
 const Process = () => (
     <section className="process">
