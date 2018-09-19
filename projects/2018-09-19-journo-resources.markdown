@@ -15,11 +15,11 @@ outline: >-
   journalists with over a dozen helpful services.
 image: /uploads/journo-resources.jpg
 ---
-Journo Resources offers a support network to journalists at the very start of their career. They offer vetted lists of graduate schemes, information on salaries, and career advice.
+[Journo Resources](http://www.journoresources.org.uk/) offers a support network to journalists at the very start of their career. They offer vetted lists of graduate schemes, information on salaries, and career advice.
 
 They were struggling to scale an out-of-the-box Wordpress theme to cope with the amount of different services they offered and the 
 
-Their brand was well-developed and was displayed well offline and on social media, but the website fell behind.
+Their brand was very visible offline and on social media, but there was no easy way to integrate it into the website theme being used.
 
 My overhaul had three key aims:
 
@@ -31,4 +31,4 @@ My overhaul had three key aims:
 
 I ended up creating a Wordpress child theme so that changes could be trialled and tested bit by bit, rather than in one big risky release.
 
-I [blogged about my process](https://medium.com/@dinosaurlord/building-a-home-for-new-journalists-e9da88c5e49a) for arriving at the new design.
+I [blogged about my detailed process](https://medium.com/@dinosaurlord/building-a-home-for-new-journalists-e9da88c5e49a) for arriving at the new design.
