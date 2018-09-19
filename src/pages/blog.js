@@ -53,7 +53,7 @@ export default class Blog extends React.Component{
                                     title={post.node.frontmatter.title}
                                     excerpt={(post.node.medium)? post.node.frontmatter.excerpt : post.node.html.substring(0,130).replace(/<(?:.|\n)*?>/gm, '')}
                                     linkHref={(post.node.medium)? `http://medium.com/@dinosaurlord/${post.node.mediumSlug}` : `/post/${slugify(post.node.frontmatter.title, {lower: true})}`}
-                                    linkLabel="Keep reading →"
+                                    linkLabel={(post.node.medium)? "Keep reading on Medium →" : "Keep reading →"}
                                     external={post.node.medium}
                                     />
                             )}
