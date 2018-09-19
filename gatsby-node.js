@@ -2,9 +2,9 @@ const path = require('path')
 const slugify = require('slugify')
 // const createPaginatedPages = require("gatsby-paginate")
 
-exports.createPages = ({boundActionCreators, graphql}) => {
+exports.createPages = ({actions, graphql}) => {
 
-  const { createPage } = boundActionCreators;
+  const { createPage } = actions;
 
   const postTemplate = path.resolve('src/templates/post.js')
   return graphql(`

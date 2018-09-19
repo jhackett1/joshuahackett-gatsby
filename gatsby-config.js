@@ -31,6 +31,8 @@ module.exports = {
     `gatsby-transformer-remark`,
     // Manage document head
     `gatsby-plugin-react-helmet`,
+    // CMS
+    `gatsby-plugin-netlify-cms`,
     // Support Medium
     {
       resolve: `gatsby-source-medium`,
