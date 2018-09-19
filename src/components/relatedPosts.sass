@@ -1,0 +1,35 @@
+@import '../layouts/variables'
+    
+.related-posts
+    padding: 0px 20px 60px 20px
+
+.related-posts__title
+    margin-top: 0px
+    color: $grey1
+    font-size: 1.7em
+
+.related-posts__list
+    margin: 0
+    padding: 0
+    list-style: none
+
+
+.related-posts__link
+    text-decoration: none
+    color: $green1
+    &:hover
+        text-decoration: underline
+
+.related-posts__post-title
+    margin: 0px
+
+.related-posts__post-excerpt
+    margin: 5px 0px 20px 0px
+    color: $grey2
+
+
+@media (min-width: 700px)
+    .related-posts__list
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-column-gap: 35px

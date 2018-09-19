@@ -14,6 +14,7 @@ export default class Button extends React.Component{
             return(
                 <a
                     href={this.props.href} 
+                    target="blank"
                     className={(this.props.outline)? `button button--outline ${this.props.outline}` : `button button--solid ${this.props.outline}`}
                     >{this.props.label}
                 </a>

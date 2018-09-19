@@ -21,8 +21,10 @@ export default class PostTemplate extends React.Component{
 
         return(
             <div>
-                <section className="full-width-image" style={style}>
-                </section>
+                {(post.post.frontmatter.image)? 
+                    <section className="full-width-image" style={style}>
+                    </section>                    
+                : ""}
                 <div className="container">
                     <header className="post-header">
                         <h4 className="post-header__subheadline">{(post.post.frontmatter.type)? post.post.frontmatter.type.join(", ") : timeago().format(post.post.frontmatter.date)}</h4>
@@ -38,7 +40,9 @@ export default class PostTemplate extends React.Component{
                     : ""}
                     <article className="content" dangerouslySetInnerHTML={{ __html: post.post.html}}></article>
                 </div>
-                <RelatedPosts/>
+                {(post.relatedPosts)? 
+                    <RelatedPosts posts={post.relatedPosts}/>    
+                :""}
                 <CallToAction email="hello@joshuahackett.com"/>
             </div>
         )

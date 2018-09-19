@@ -71,7 +71,8 @@ exports.createPages = ({boundActionCreators, graphql}) => {
         component: postTemplate,
         context: {
           title: node.frontmatter.title,
-          post: node
+          post: node,
+          relatedPosts: result.data.posts.edges.reverse().slice(0, 3)
         }
       })
     })
