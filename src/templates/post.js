@@ -1,7 +1,7 @@
 import React from 'react'
 import timeago from 'timeago.js';
 
-import Layout from "../components/Layout"
+import Layout from "../components/Index"
 import RelatedPosts from '../components/RelatedPosts'
 import CallToAction from '../components/CallToAction'
 import ProjectMeta from '../components/ProjectMeta'
