@@ -4,6 +4,7 @@ import Layout from '../components/Index'
 import CallToAction from '../components/CallToAction'
 
 import './page.sass'
+import '../templates/post.sass'
 
 export default class Blog extends React.Component{
     render(){
