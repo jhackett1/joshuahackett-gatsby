@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Joshua Hackett',
     description: 'User-centred design and development',
-    strapline: "Hello, I'm <strong>Joshua Hackett</strong>, a user-centred designer and developer",
+    strapline: "Hello, I'm <strong>Joshua Hackett</strong>, a user experience designer and developer",
     copyrightNotice: '© Joshua Hackett 2018',
     email: 'hello@joshuahackett.com',
     menu: [
